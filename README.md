@@ -110,7 +110,7 @@ The accuracy log's meaning in README.md,you should watching it.
 
 in **rkzoo_example_yolov5**
 
-tip:need full rknn_model_zoo
+tip:Need full rknn_model_zoo package.Please read https://github.com/airockchip/rknn_model_zoo/blob/main/examples/yolov5/README.md
 
 *usage*
 
@@ -149,6 +149,10 @@ cd ../../
   ```
 
 ## 8.Deploy model
+
+result folder:rknn_yolov5_demo
+
+tip:Need full rknn_model_zoo package.Please read https://github.com/airockchip/rknn_model_zoo/blob/main/examples/yolov5/README.md
 
 - If device connected via USB port, push demo files to devices:
 
