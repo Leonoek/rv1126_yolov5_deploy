@@ -172,7 +172,19 @@ After running, the result was saved as `out.png`. To check the result on host PC
 adb pull /userdata/rknn_yolov5_demo/out.png
 ```
 
+# On rv1126 board forward process result
 
+cow1_out.jpg
+
+![cow1_out](rknn_yolov5_demo/cow1_out.png)
+
+cow2_out.jpg
+
+![cow2_out](rknn_yolov5_demo/cow2_out.png)
+
+cow3_out.jpg
+
+![cow3_out](rknn_yolov5_demo/cow3_out.png)
 
 # Done!
 
