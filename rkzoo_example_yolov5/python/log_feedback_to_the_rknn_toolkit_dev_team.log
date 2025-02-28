@@ -1,0 +1,13 @@
+W rknn-toolkit version: 1.7.5
+D Using CPPUTILS: True
+D target set by user is: rk3566
+E Unsupport target: rk3566
+E Catch exception when init runtime!
+E Traceback (most recent call last):
+E   File "rknn/api/rknn_base.py", line 979, in rknn.api.rknn_base.RKNNBase.init_runtime
+E   File "rknn/api/rknn_runtime.py", line 158, in rknn.api.rknn_runtime.RKNNRuntime.__init__
+E   File "rknn/api/rknn_runtime.py", line 222, in rknn.api.rknn_runtime.RKNNRuntime._get_hardware
+E   File "rknn/api/rknn_log.py", line 323, in rknn.api.rknn_log.RKNNLog.e
+E ValueError: Unsupport target: rk3566
+E Please feedback the detailed log file <log_feedback_to_the_rknn_toolkit_dev_team.log> to the RKNN Toolkit development team.
+E You can also check github issues: https://github.com/rockchip-linux/rknn-toolkit/issues
