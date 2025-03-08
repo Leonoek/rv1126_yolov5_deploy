@@ -24,6 +24,8 @@ In this project,the sequence is:
 
 8.Deploy model
 
+
+
 ## 1.Train model
 
 In **rk_yolov5_master**
@@ -32,6 +34,8 @@ In **rk_yolov5_master**
 python train.py --img 640 --epoch 500 --weights yolov5s.pt --data data/my.yaml 
 ```
 
+
+
 ## 2.Detect pt model
 
 In **rk_yolov5_master**
@@ -39,6 +43,8 @@ In **rk_yolov5_master**
 ```shell
 python detect.py --weights your_trained_model.pt --source your_img.jpg
 ```
+
+
 
 ## 3.Export onnx model
 
@@ -51,6 +57,8 @@ python export.py --rknpu --weight yolov5s.pt
 # for segmentation model
 python export.py --rknpu --weight yolov5s-seg.pt
 ```
+
+
 
 ## 4.Convert onnx to rknn
 
@@ -74,6 +82,8 @@ python convert.py ../model/yolov5s_relu.onnx rk3588
 - `<dtype>(optional)`: Specify as `i8` or `fp`. `i8` for doing quantization, `fp` for no quantization. Default is `i8`.
 - `<output_rknn_path>(optional)`: Specify save path for the RKNN model, default save in the same directory as ONNX model with name `yolov5.rknn`
 
+
+
 ## 5.Link board to detect object
 
 in **rkzoo_example_yolov5**
@@ -94,6 +104,8 @@ python yolov5.py --model_path <rknn_model> --target <TARGET_PLATFORM> --img_show
 - `<TARGET_PLATFORM>`: Specify NPU platform name. Such as 'rk3588'.
 - `<pt_model / onnx_model / rknn_model>`: specified as the model path.
 
+
+
 ## 6.Accuracy analysis
 
 In **accuracy_analysis**
@@ -103,6 +115,8 @@ python my_normal_quantizition.py
 ```
 
 The accuracy log's meaning in README.md,you should watching it.
+
+
 
 ## 7.Compile model
 
@@ -146,6 +160,8 @@ cd ../../
   adb shell cat /proc/version
   ```
 
+
+
 ## 8.Deploy model
 
 result folder:rknn_yolov5_demo
@@ -169,6 +185,8 @@ After running, the result was saved as `out.png`. To check the result on host PC
 ```
 adb pull /userdata/rknn_yolov5_demo/out.png
 ```
+
+
 
 # On rv1126 board forward process result
 
