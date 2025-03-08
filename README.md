@@ -192,7 +192,11 @@ adb pull /userdata/rknn_yolov5_demo/out.png
 
 ## 9.Test in real-world situations
 
+In field_tests there have two folders: **myvideo** and **yolov5_jpeg**
 
+myvideo for record video,video format can be nv12,h264,h264 and mjpg
+
+yolov5_jpeg for take a picture and detect it.Use **ispserver** module can avoid taking iqfiles in starting parameter.
 
 # On rv1126 board forward process result
 
@@ -200,9 +204,7 @@ cow1_out.jpg
 
 ![cow1_out](rknn_yolov5_demo/cow1_out.png)
 
-cow2_out.jpg
 
-![cow2_out](rknn_yolov5_demo/cow2_out.png)
 
 cow3_out.jpg
 
