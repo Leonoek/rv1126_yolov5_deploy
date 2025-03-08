@@ -24,8 +24,6 @@ In this project,the sequence is:
 
 8.Deploy model
 
-
-
 ## 1.Train model
 
 In **rk_yolov5_master**
