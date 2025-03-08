@@ -24,6 +24,8 @@ In this project,the sequence is:
 
 8.Deploy model
 
+9.Test in real-world situations
+
 
 
 ## 1.Train model
@@ -188,6 +190,10 @@ adb pull /userdata/rknn_yolov5_demo/out.png
 
 
 
+## 9.Test in real-world situations
+
+
+
 # On rv1126 board forward process result
 
 cow1_out.jpg
@@ -201,6 +207,14 @@ cow2_out.jpg
 cow3_out.jpg
 
 ![cow3_out](rknn_yolov5_demo/cow3_out.png)
+
+
+
+# tested in real-world situations result
+
+
+
+
 
 # Done!
 
