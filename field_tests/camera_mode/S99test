@@ -1,0 +1,23 @@
+source /etc/profile 
+case "$1" in 
+  start) 
+	echo "start capture imgs"
+	/root/rkmedia_venc_jpeg_test -W 1920 -H 1080 -w 1920 -h 1080 -o /demo/my_imgs/
+        ;; 
+  stop) 
+        echo "stop test" 
+        ;; 
+  reload|force-reload) 
+        echo "Reloading test" 
+        "$0" reload 
+        ;; 
+  restart) 
+        "$0" stop 
+        sleep 1 # Prevent race condition: ensure QDesktop stops before 
+start. 
+        "$0" start 
+        ;; 
+  *) 
+        echo "Usage: $0 {start|stop|restart|reload|force-reload}" 
+esac 
+exit 0
