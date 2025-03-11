@@ -194,9 +194,13 @@ adb pull /userdata/rknn_yolov5_demo/out.png
 
 In field_tests there have two folders: **myvideo** and **yolov5_jpeg**
 
-myvideo for record video,video format can be nv12,h264,h264 and mjpg
+**myvideo** for record video,video format can be nv12,h264,h264 and mjpg
 
-yolov5_jpeg for take a picture and detect it.Use **ispserver** module can avoid taking iqfiles in starting parameter.
+**yolov5_jpeg** for take a picture and detect it.Use **ispserver** module can avoid taking iqfiles in starting parameter.
+
+**camera_mode** for no more PC linked board,just press the button,you can taking pictures.
+
+
 
 # On rv1126 board forward process result
 
