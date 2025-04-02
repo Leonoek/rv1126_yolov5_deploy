@@ -24,7 +24,7 @@ In this project,the sequence is:
 
 8.Deploy model
 
-9.Test in real-world situations
+9.Helpful function in real-world situations
 
 
 
@@ -190,15 +190,17 @@ adb pull /userdata/rknn_yolov5_demo/out.png
 
 
 
-## 9.Test in real-world situations
+## 9.Helpful function in real-world situations
 
-In field_tests there have two folders: **myvideo** and **yolov5_jpeg**
+There are some usful packages to use:
 
 **myvideo** for record video,video format can be nv12,h264,h264 and mjpg
 
 **yolov5_jpeg** for take a picture and detect it.Use **ispserver** module can avoid taking iqfiles in starting parameter.
 
-**camera_mode** for no more PC linked board,just press the button,you can taking pictures.
+**camera_mode** for no more PC to linked board,just press the button,you can taking pictures.This will be usful to taking picture for training.
+
+
 
 
 
@@ -222,11 +224,6 @@ cow3_out.jpg
 
 
 
-# tested in real-world situations result
-
-Please refer **field_tests**
-
 
 
 # Done!
-
