@@ -206,7 +206,7 @@ In field_tests there have two folders: **myvideo** and **yolov5_jpeg**
 
 cow1_out.jpg
 
-![cow1_out](rkzoo_example_yolov5\install\rknn_yolov5_demo/cow1_out.png)
+![cow1_out](rkzoo_example_yolov5/install/rknn_yolov5_demo/cow1_out.png)
 
 
 
@@ -218,7 +218,7 @@ cow2_out.jpg
 
 cow3_out.jpg
 
-![cow3_out](rkzoo_example_yolov5\install\rknn_yolov5_demo/cow3_out.png)
+![cow3_out](rkzoo_example_yolov5/install/rknn_yolov5_demo/cow3_out.png)
 
 
 
