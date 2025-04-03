@@ -2,7 +2,7 @@
 
 ## Abstract:
 
-This is a full process to deploy yolov5 on rv1126
+This is a full process to deploy yolov5 on rv1126,Using atk RV1126 PCB Board and Demo
 
 (or rv1109,similar with rv1106 and rv1103).
 
@@ -25,6 +25,20 @@ In this project,the sequence is:
 8.Deploy model
 
 9.Helpful function in real-world situations
+
+
+
+# Start up
+
+**Development board information**
+
+Product model:ATK-DLRV1126
+SOC: RockChip RV1126
+Storage: 2GB DDR4L, 8GB EMMC
+
+Camera: ATK-MCIMX335
+Master control:Sony IMX335
+Pixel:504W
 
 
 
